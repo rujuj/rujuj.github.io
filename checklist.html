@@ -1,89 +1,141 @@
 <!DOCTYPE html>
 
 <head>
-	<title> JQuery Packing Checklist </title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script>
 		$(document).ready(function() {
-			$("p").click(function () {
-		        	$(this).fadeOut("slow");
-    		   });
+			$("p").click(function() {
+		        	$(this).fadeOut();
+       			});
+		});
+		$(document).ready(function() {
+			$("#heading").click(function() {
+				$(this).fadeOut();
+			});
 		});
 	</script>
 </head>
 
 <body>
-	<p> <a href="/index.html"> Back to the home page </a>
-<h2> CLOTHES </h2>
-<p> underwear </p>
-<p> socks </p>
-<p> shirts </p>
-<p> pants </p>
-<p> pajama shirts </p>
-<p> pajama pants </p>
-<p> dresses </p>
-<p> professional wear </p>
-<p> shoes </p>
+	<p> <a href="/index.html"> Back to home page </a> </p>
+	<div id="sublist">
+		<div id="heading"> 
+			<h2> CLOTHES </h2>
+		</div>
+		<div id="list">
+			<p> underwear </p>
+			<p> socks </p>
+			<p> shirts </p>
+			<p> pants </p>
+			<p> pajama shirts </p>
+			<p> pajama pants </p>
+			<p> dresses </p>
+			<p> professional wear </p>
+			<p> shoes </p>
+		</div>
+	</div>
+	
+	<div id="sublist">
+		<div id="heading">
+			<h2> STATIONARY </h2>
+		</div>
+		<div id="list">
+			<p> pencils </p>
+			<p> pens </p>
+			<p> notebooks </p>
+			<p> paper </p>
+			<p> clipboard </p>
+			<p> erasers </p>
+			<p> highlighters</p>
+			<p> pencil case </p>
+			<p> calculator </p>
+			<p> binders </p>
+			<p> calendar </p>
+		</div>
+	</div>
 
-<h2> STATIONARY </h2>
-<p> pencils </p>
-<p> pens </p>
-<p> notebooks </p>
-<p> paper </p>
-<p> clipboard </p>
-<p> erasers </p>
-<p> highlighters </p>
-<p> pencil case </p>
-<p> calculator </p>
-<p> binders </p>
-<p> calendar </p>
+	<div id="sublist">
+		<div id="heading">
+			<h2> SANITARY/HYGIENE </h2>
+		</div>
+		<div id="list">	
+			<p> toothbrush </p>
+			<p> toothpaste </p>
+			<p> facewash </p>
+			<p> shampoo </p>
+			<p> conditioner </p>
+			<p> soap </p>
+		</div>
+	</div>
+			 
+	<div id="sublist">
+		<div id="heading">
+			<h2> MEDICINE EQUIPMENT </h2>
+		</div>
+		<div id="list">     
+			<p> gauze </p>
+			<p> gauze tape </p>
+			<p> bandages </p>
+			<p> thermometer </p>
+			<p> cough drops </p>
+			<p> contact cases </p>
+			<p> contact solution </p>
+			<p> contacts </p>
+			<p> advil </p>
+			<p> alcohol pads </p>
+			<p> vitamins </p>
+		</div>
+	</div>
 
-<h2> SANITARY/HYGIENE </h2>
-<p> toothbrush </p>
-<p> toothpaste </p>
-<p> facewash </p>
-<p> shampoo </p>
-<p> conditioner </p>
-<p> soap </p>
+	
+	<div id="sublist">
+		<div id="heading">
+			<h2> SNACKS </h2>
+		</div>
+		<div id="list">
+			<p> Triscuits Crackers </p>
+			<p> Chips </p>
+			<p> Tea </p>
+			<p> Granola Bars </p>
+			<p> Popcorn </p>
+		</div>
+	</div>
 
-<h2> MEDICINE EQUIPMENT </h2>
-<p> gauze </p>
-<p> gauze tape </p>
-<p> bandages </p>
-<p> thermometer </p>
-<p> cough drops </p>
-<p> contact cases </p>
-<p> contact solution </p>
-<p> contacts </p>
-<p> advil </p>
-<p> alcohol pads </p>
-<p> vitamins </p>
+	<div id="sublist">
+		<div id="heading">
+			<h2> LIFESTYLE </h2>
+		</div>
+		<div id="list">
+			<p> pillow </p>
+			<p> pillow case </p>
+			<p> blanket </p>
+			<p> bedsheets </p>
+			<p> hairties </p>
+			<p> wallet </p>
+			<p> books </p>
+			<p> room decor </p>
+		</div>
+	</div>
 
-<h2> SNACKS </h2>
-<p> Triscuits Crackers </p>
-<p> Chips </p>
-<p> Tea </p>
-<p> Granola Bars </p>
-<p> Popcorn </p>
+	<div id="sublist">
+		<div id="heading">
+			<h2> MISCELLANEOUS </h2>
+		</div>
+		<div id="list">
+		</div>
+	</div>
 
-<h2> LIFESTYLE </h2>
-<p> pillow </p>
-<p> pillow case </p>
-<p> blanket </p>
-<p> bedsheets </p>
-<p> hairties </p>
-<p> wallet </p>
-<p> books </p>
-<p> room decor </p>
-
-<h2> MISCELLANEOUS </h2>
-
-<h2> LAST MINUTE </h2>
-<p> laptop </p>
-<p> laptop charger </p>
-<p> phone </p>
-<p> keys </p>
-<p> food </p>
-<p> glasses </p>
-
+	<div id="sublist">
+		<div id="heading">
+			<h2> LAST MINUTE </h2>
+		</div>
+		<div id="list">
+			<p> laptop </p>
+			<p> laptop charger </p>
+			<p> phone </p>
+			<p> keys </p>
+			<p> food </p>
+			<p> glasses </p>
+		</div>
+	</div>
 </body>
