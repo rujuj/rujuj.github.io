@@ -1,1 +1,1 @@
-Hi! My name is Ruju and this is the source code for my personal website. This is where I like experimenting with little bits of web development as I find time. Feel free to check out the site at ruju.me
+Hi! My name is Ruju and this is the source code for my personal website. This is where I like experimenting with little bits of web development as I find time. Feel free to check out the site at http://ruju.me/
