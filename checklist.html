@@ -3,13 +3,14 @@
 <head>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script>
+		const $heading = $("#heading");
 		$(document).ready(function() {
 			$("p").click(function() {
 		        	$(this).fadeOut();
        			});
 		});
 		$(document).ready(function() {
-			$("#heading").click(function() {
+			$heading.click(function() {
 				$(this).fadeOut();
 			});
 		});
