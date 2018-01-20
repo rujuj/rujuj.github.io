@@ -16,9 +16,13 @@
 		
 		// Script to fadeOut list elements under headers (not yet functional)
 		$(document).ready(function() {
-			$heading.click(function() {
-				$(this).next().fadeOut();
+			$heading.on('click', () => {
+				$(this).next().fadeOut();	
 			});
+			
+			/*$heading.click(function() {
+				$(this).next().fadeOut();
+			});*/
 		});
 	</script>
 </head>
