@@ -31,7 +31,11 @@
 			$heading.click(function() {
 				$(this).fadeOut();
 			});
-
+			
+			// hidden by default
+			$linksdropdown.hide();
+			
+			// 
 			$('.links').click(function() {
 				$linksdropdown.slideToggle('slow');
 			})
