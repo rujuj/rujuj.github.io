@@ -7,6 +7,9 @@
 		#links-dropdown {
     				display: none;
 			}
+		.links {
+			colour: magenta;
+		}
 	</style> 
 
     	<!-- Title -->
@@ -37,12 +40,9 @@
 				$(this).fadeOut();
 			});
 			
-			// hide by default
-			$linksdropdown.hide();
-			
 			// 
 			$('.links').click(function() {
-				$linksdropdown.slideToggle('slow');
+				$linksdropdown.show();
 			})
 
 		});
