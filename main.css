@@ -10,3 +10,24 @@
     .p {
       margin-left: 10%;
     }
+
+    /* Experimenting with Link Colours*/ 
+    /* unvisited link */
+    a:link {
+        color: blue;
+    }
+
+    /* visited link */
+    a:visited {
+        color: magenta;
+    }
+
+    /* mouse over link */
+    a:hover {
+        color: navy;
+    }
+
+    /* selected link */
+    a:active {
+        color: green;
+    }
