@@ -3,45 +3,72 @@
 <head>
 	<!-- CSS -->
     	<link rel="stylesheet" href="/main.css">
-    
-    	<!-- Title --> 
+
+    	<!-- Title -->
     	<title> Packing Checklist </title>
-	
+
 	<!-- load JQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	
+
 	<!-- JQuery Scripts -->
 	<script>
 		// Constants for Element IDs
 		const $heading = $("#heading");
-		
-		// Script to fadeOut paragraph elements
+		const $linksdropdwon = $("#links-dropdown");
+
 		$(document).ready(function() {
+			// Script to fadeOut paragraph elements
 			$("p").click(function() {
-		        	$(this).fadeOut();
-       			});
-		});
-		
-		// Script to fadeOut list elements under headers (not yet functional)
-		$(document).ready(function() {
-			$heading.on('click', () => {
-				$(this).next().fadeOut();	
+				$(this).fadeOut();
+     			 });
+
+			// Script to fadeOut list elements under headers (not yet functional)
+			$heading.click(function() {
+				$(this).next().fadeOut();
+			});
+
+			// fades out the heading
+			$heading.click(function() {
+				$(this).fadeOut();
 			});
 			
-			/*$heading.click(function() {
-				$(this).next().fadeOut();
-			});*/
+			// toggles link dropdown
+			$('.links').click(function() {
+				$linksdropdown.slideToggle('slow');
+			})
+
 		});
 	</script>
 </head>
 
 <body>
+	<!-- Navigation -->
+	  <nav>
+	    <div class='container'>
+	      <div>
+		<span class='homepage'><a href="/index.html">Homepage</a></span
+		<span class='resume'>Resume</span>
+		<span class='links'>Links</span>
+	      </div>
+	    </div>
+	  </nav>
+
+	  <!-- Links Dropdown -->
+	  <div class='links hide' id='links-dropdown'>
+	    <div class='container'>
+	      <ul>
+		<li><a href="bit.ly/GitHubRujuJ">GitHub</a></li>
+		<li><a href="bit.ly/LinkedInRJ">LinkedIn</a></li>
+	      </ul>
+	    </div>
+	  </div>
+
 	<!-- Link back to homepage -->
 	<p> <a href="/index.html"> Back to home page </a> </p>
-	
+
 	<!-- Contents of Packing Checklist -->
 	<div id="sublist">
-		<div id="heading"> 
+		<div id="heading">
 			<h2> CLOTHES </h2>
 		</div>
 		<div id="list">
@@ -56,7 +83,7 @@
 			<p> shoes </p>
 		</div>
 	</div>
-	
+
 	<div id="sublist">
 		<div id="heading">
 			<h2> STATIONARY </h2>
@@ -80,7 +107,7 @@
 		<div id="heading">
 			<h2> SANITARY/HYGIENE </h2>
 		</div>
-		<div id="list">	
+		<div id="list">
 			<p> toothbrush </p>
 			<p> toothpaste </p>
 			<p> facewash </p>
@@ -89,12 +116,12 @@
 			<p> soap </p>
 		</div>
 	</div>
-			 
+
 	<div id="sublist">
 		<div id="heading">
 			<h2> MEDICINE EQUIPMENT </h2>
 		</div>
-		<div id="list">     
+		<div id="list">
 			<p> gauze </p>
 			<p> gauze tape </p>
 			<p> bandages </p>
@@ -109,7 +136,7 @@
 		</div>
 	</div>
 
-	
+
 	<div id="sublist">
 		<div id="heading">
 			<h2> SNACKS </h2>
