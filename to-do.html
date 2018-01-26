@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- CSS --> 
+<style>
+		#links-dropdown {
+    				display: none;
+			}
+		.links {
+			colour: magenta;
+		}
+	</style> 
+
+<!-- load JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+
+<!-- main script --> 
+
+$(document).ready(function() {
+			// script to strikethrough elements in list
+			$("li").click(function() {
+				$(this).css('text-decoration', 'line-through');
+			});
+});
+
+
+</script>
+<title>
+Courses To-Do List
+</title>
+</head>
+<body>
+<!-- TO DO LIST --> 
+<ul>
+<li> CS241 read assignment </li>
+<li> CS241 review documentation </li>
+<li> CS240 read assignment </li>
+<li> CS251 read assignment </li>
+<li> Math239 read assignment</li>
+<li> Stat231 prep for midterm</li>
+</ul>
+</body>
+</html>
