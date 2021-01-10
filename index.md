@@ -6,4 +6,4 @@ Welcome to [rujuj.github.io](https://rujuj.github.io/). This website is currentl
 
 - [GitHub](https://github.com/rujuj)
 - [LinkedIn](https://www.linkedin.com/in/ruju-jambusaria/)
-- [Current Resume](https://rujuj.github.io/resume/4A.75%20Master.pdf)
+- [Current Resume](https://rujuj.github.io/resume/RujuJambusaria_Resume.pdf)
