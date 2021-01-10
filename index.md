@@ -1,6 +1,6 @@
 # Hello!
 
-Welcome to [rujuj.github.io](https://rujuj.github.io/). This website is currently under construction but will be updated in the future.
+Welcome to [rujuj.github.io](https://rujuj.github.io/). Check out my [About Me](/about-me) page to learn more.
 
 ### Useful Links
 
